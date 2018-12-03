@@ -12,7 +12,7 @@ sh -c "echo \"alias gp='git pull'\" >> ~/.bashrc"
 sh -c "echo \"alias r1='export ROS_MODE=r1 && source ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias r2='export ROS_MODE=r2 && source ~/.bashrc'\" >> ~/.bashrc"
 
-sh -c "echo \"if [ \"\$\ROS_MODE\" = 'r1' ];then\" >> ~/.bashrc"
+sh -c "echo \"if [ \\"\$\ROS_MODE\\" = 'r1' ];then\" >> ~/.bashrc"
 sh -c "echo \"	echo ROS1 Mode\" >> ~/.bashrc"
 sh -c "echo \"	source /opt/ros/melodic/setup.bash\" >> ~/.bashrc"
 sh -c "echo \"	source ~/catkin_ws/devel/setup.bash\" >> ~/.bashrc"
