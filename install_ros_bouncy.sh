@@ -1,4 +1,6 @@
 #!/bin/bash
+# Apache License 2.0
+# AuTURBO (https://www.facebook.com/contact2auturbo/)
 # author : Ryuwoon Jung (Leon)
 
 echo ""
@@ -21,7 +23,7 @@ fi
 
 echo "[Set the target OS, ROS version and name of colcon workspace]"
 name_ros_version=${name_ros_version:="bouncy"}
-name_catkin_workspace=${name_catkin_workspace:="colcon_ws"}
+name_colcon_workspace=${name_colcon_workspace:="colcon_ws"}
 
 echo "[Update the package lists and upgrade them]"
 sudo apt-get update -y
@@ -34,9 +36,9 @@ echo "[Environment setup and getting auto completion]"
 source /opt/ros/$name_ros_version/setup.bash
 sudo apt install python3-argcomplete
 
-echo "[Make the catkin workspace and test the catkin_make]"
-mkdir -p $HOME/$name_catkin_workspace/src
-cd $HOME/$name_catkin_workspace
+echo "[Make the colcon workspace and test the colcon build]"
+mkdir -p $HOME/$name_colcon_workspace/src
+cd $HOME/$name_colcon_workspace
 colcon build --symlink-install
 
 echo "[Complete!!!]"
