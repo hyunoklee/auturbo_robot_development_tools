@@ -34,8 +34,8 @@ sudo apt-get install -y ros-$name_ros_version-desktop
 
 echo "[Environment setup and getting auto completion]"
 source /opt/ros/$name_ros_version/setup.bash
-sudo apt install python3-argcomplete
-python3-colcon-common-extensions
+sudo apt-get install python3-argcomplete
+sudo apt-get install python3-colcon-common-extensions
 
 echo "[Make the colcon workspace and test the colcon build]"
 mkdir -p $HOME/$name_colcon_workspace/src
