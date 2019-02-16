@@ -64,4 +64,28 @@
     $ sudo apt-get upgrade
     $ wget https://raw.githubusercontent.com/auturbo/auturbo_robot_development_tools/master/add_macro_for_bouncy_with_melodic.sh && chmod 755 ./add_macro_for_bouncy_with_melodic.sh && bash ./add_macro_for_bouncy_with_melodic.sh
     ```
+
+### ROS2 Crystal
+
+  * installation
+    ``` bash
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ wget https://raw.githubusercontent.com/auturbo/auturbo_robot_development_tools/master/install_ros_crystal.sh && chmod 755 ./install_ros_crystal.sh && bash ./install_ros_crystal.sh
+    ```
+
+  * macro setting (bouncy only)
+    ``` bash
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ wget https://raw.githubusercontent.com/auturbo/auturbo_robot_development_tools/master/add_macro_for_crystal_only.sh && chmod 755 ./add_macro_for_crystal_only.sh && bash ./add_macro_for_crystal_only.sh
+    ```
+
+  * macro setting (bouncy with ROS1)
+  
+    ``` bash
+    $ sudo apt-get update
+    $ sudo apt-get upgrade
+    $ wget https://raw.githubusercontent.com/auturbo/auturbo_robot_development_tools/master/add_macro_for_crystal_with_melodic.sh && chmod 755 ./add_macro_for_crystal_with_melodic.sh && bash ./add_macro_for_crystal_with_melodic.sh
+    ```
   
