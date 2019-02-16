@@ -4,7 +4,7 @@
 # AuTURBO (https://www.facebook.com/contact2auturbo/)
 # Modified : Leon Ryuwoon Jung
 
-echo "[Set the ROS environment]"
+echo "[Set the macro for crystal only]"
 sh -c "echo \"alias eb='nano ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias sb='source ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias gs='git status'\" >> ~/.bashrc"
@@ -15,6 +15,8 @@ sh -c "echo \"alias cm='cd ~/colcon_ws && colcon build --symlink-install'\" >> ~
 
 sh -c "echo \"source /opt/ros/crystal/setup.bash\" >> ~/.bashrc"
 sh -c "echo \"source ~/colcon_ws/install/local_setup.bash\" >> ~/.bashrc"
+sh -c "echo 'export CMAKE_PREFIX_PATH=\$AMENT_PREFIX_PATH:\$CMAKE_PREFIX_PATH' >> ~/.bashrc"
+sh -c "echo \"#export ROS_DOMAIN_ID=1\" >> ~/.bashrc"
 
 source $HOME/.bashrc
 

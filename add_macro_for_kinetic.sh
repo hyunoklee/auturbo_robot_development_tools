@@ -4,7 +4,7 @@
 # AuTURBO (https://www.facebook.com/contact2auturbo/)
 # Modified : Leon Ryuwoon Jung
 
-echo "[Set the ROS environment]"
+echo "[Set the macro for kinetic]"
 sh -c "echo \"alias eb='nano ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias sb='source ~/.bashrc'\" >> ~/.bashrc"
 sh -c "echo \"alias gs='git status'\" >> ~/.bashrc"
