@@ -1,7 +1,8 @@
 #!/bin/bash
 # Apache License 2.0
-# Copyright (c) 2017, ROBOTIS CO., LTD.
-# modified by Ryuwoon Jung (Leon)
+# Copyright (c) 2018, ROBOTIS CO., LTD.
+# AuTURBO (https://www.facebook.com/contact2auturbo/)
+# Modified : Leon Ryuwoon Jung
 
 echo ""
 echo "[Note] Target OS version  >>> Ubuntu 16.04.x (xenial) or Linux Mint 18.x"

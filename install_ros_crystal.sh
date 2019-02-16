@@ -1,7 +1,8 @@
 #!/bin/bash
 # Apache License 2.0
+# Copyright (c) 2018, ROBOTIS CO., LTD.
 # AuTURBO (https://www.facebook.com/contact2auturbo/)
-# author : Ryuwoon Jung (Leon)
+# Modified : Leon Ryuwoon Jung
 
 echo ""
 echo "[Note] Target OS version  >>> Ubuntu 18.04.x (Bionic Beaver)"

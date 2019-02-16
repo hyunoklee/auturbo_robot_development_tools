@@ -1,7 +1,8 @@
 #!/bin/bash
 # Apache License 2.0
+# Copyright (c) 2018, ROBOTIS CO., LTD.
 # AuTURBO (https://www.facebook.com/contact2auturbo/)
-# Author : Leon Ryuwoon Jung
+# Modified : Leon Ryuwoon Jung
 
 echo "[Set the ROS environment]"
 sh -c "echo \"alias eb='nano ~/.bashrc'\" >> ~/.bashrc"
