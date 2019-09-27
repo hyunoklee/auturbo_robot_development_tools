@@ -17,7 +17,7 @@ echo "[Authorize gpg and download the ROS keys]"
 sudo apt update
 #sudo apt install curl gnupg2
 #curl http://repo.ros2.org/repos.key | sudo apt-key add -
-sudo apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
 echo "[Add the ROS repository]"
 if [ ! -e /etc/apt/sources.list.d/ros2-latest.list ]; then
